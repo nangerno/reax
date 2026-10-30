@@ -1,0 +1,15 @@
+.git
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+tests
+eval-*.json
+.last_pin
+.last_commitment
+README.md
+CHECKLIST.md
+requirements-dev.txt
+scripts
+engine
+.dockerignore

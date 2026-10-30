@@ -1,0 +1,34 @@
+{
+ "track": "dm-all",
+ "composite_rules_sha256": "ff53976e924975aa378c0822466f53fcad888a8a0ae886c7c302206466e7aea1",
+ "weights": {
+  "blink": 0.33,
+  "vision": 0.1,
+  "reax1": 0.1,
+  "jeffan": 0.1,
+  "mammoth": 0.37
+ },
+ "not_release_ready": [],
+ "overridden_references": [],
+ "declared_from": "--models",
+ "references": {
+  "plumb": "ghcr.io/reaxlabs/reax-engine-s1-fast@sha256:9bd41632e33bd90377f7e29bdb9410b18cfe1fb557200160b9ebe9222abcecea",
+  "blink": "ghcr.io/reaxlabs/reax-engine-ref-blink@sha256:ab02e141ffb5672dc68e137736be0a6fa15445c7cc824a51f6ad2a6664c0e10a",
+  "reax1": "ghcr.io/reaxlabs/reax-engine-ref-d3turbo@sha256:503cd9e00114dada655691de44b5a4ff1a08a985bcaf0021121967a73e436eac",
+  "pplx": "ghcr.io/reaxlabs/reax-engine-ref-d3turbo@sha256:503cd9e00114dada655691de44b5a4ff1a08a985bcaf0021121967a73e436eac",
+  "d3": "ghcr.io/reaxlabs/reax-engine-ref-d3turbo@sha256:503cd9e00114dada655691de44b5a4ff1a08a985bcaf0021121967a73e436eac",
+  "quyet": "ghcr.io/reaxlabs/reax-engine-ref-quyet@sha256:da746016917b4f8a7adb3aeace03e8985278d277b8308ea380ec8f8318b8512f",
+  "vision": "ghcr.io/reaxlabs/reax-engine-ref-blink@sha256:97d06a91453979d6756176aba4a1cb1d78b38390643c37ed1b83f79a4ff9f606",
+  "mammoth": "ghcr.io/reaxlabs/reax-engine-ref-mammoth@sha256:3080a593060542bccbdaf7cf0c66593fc182d9753b3facd50206df86d93b8588",
+  "jeffan": "ghcr.io/reaxlabs/reax-engine-ref-jeffan@sha256:fdebc6e594788aa48bc228083e71c5084d86ca71ce856f6dd1f59ce106db0f13"
+ },
+ "results": [
+  {
+   "candidate": "localhost:5000/e@sha256:fb10012950be6af95147fb9162154701db2951da4a88343ca458a446752d1905",
+   "declared": [
+    "blink"
+   ],
+   "inconclusive": "ReferenceError_: reference engine did not start: docker run failed: o-6000-blackwell-server\": change mount propagation through procfd: mount /opt/reax/fla-configs/rtx-pro-6000-blackwell-server (via /proc/self/fd/6), flags: 0x44000: no such file or directory: unknown. "
+  }
+ ]
+}
